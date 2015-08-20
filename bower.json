@@ -1,6 +1,6 @@
 {
   "name": "patternfly",
-  "version": "2.6.0",
+  "version": "3.0.0-alpha",
   "authors": "Red Hat",
   "license": "Apache-2.0",
   "homepage": "https://www.patternfly.org",
@@ -15,11 +15,12 @@
     "bower_components",
     "test",
     "tests",
+    "components",
     "Makefile",
     "PatternFlyIcons-webfont.json",
     "patternfly.spec.in"
   ],
-  "devDependencies": {
+  "dependencies": {
     "bootstrap": "~3.3.5",
     "bootstrap-combobox": "~1.1.6",
     "bootstrap-datepicker": "~1.4.0",

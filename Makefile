@@ -1,5 +1,5 @@
 PACKAGE_NAME=patternfly
-VERSION=2.6.1
+VERSION=3.0.0-alpha
 MILESTONE=master
 ifneq ($(MILESTONE),)
 SUFFIX:=_$(MILESTONE)
