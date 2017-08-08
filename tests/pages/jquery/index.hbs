@@ -22,88 +22,77 @@
   <script src="../../js/patternfly.js"></script>
   <script src="../../js/patternfly-settings.min.js"></script>
   <script src="../../js/patternfly-functions.min.js"></script>
-  <script defer src="src/accordion.js"></script>
-  <script defer src="src/aggregate-card.js"></script>
-  <script defer src="src/application-launcher.js"></script>
-  <script defer src="src/bootstrap-combobox.js"></script>
-  <script defer src="src/bootstrap-datepicker.js"></script>
-  <script defer src="src/bootstrap-select.js"></script>
-  <script defer src="src/bootstrap-switch.js"></script>
-  <script defer src="src/bootstrap-touchspin.js"></script>
-  <script defer src="src/bootstrap-treeview.js"></script>
-  <script defer src="src/cardview.js"></script>
-  <script defer src="src/count-remaining-char.js"></script>
-  <script defer src="src/horizontal-drawer.js"></script>
-  <script defer src="src/horizontal-nav.js"></script>
-  <script defer src="src/list.js"></script>
-  <script defer src="src/listview.js"></script>
-  <script defer src="src/listview-rows.js"></script>
-  <script defer src="src/popover.js"></script>
-  <script defer src="src/progressbars.js"></script>
-  <script defer src="src/search.js"></script>
-  <script defer src="src/tableview.js"></script>
-  <script defer src="src/timepicker.js"></script>
-  <script defer src="src/treegridtable.js"></script>
-  <script defer src="src/toolbar.js"></script>
-  <script defer src="src/tooltip.js"></script>
-  <script defer src="src/vertical-drawer.js"></script>
-  <script defer src="src/vertical-nav.js"></script>
-  <script defer src="src/toolbar.js"></script>
-  <script defer src="src/tooltip.js"></script>
-  <script defer src="src/vertical-drawer.js"></script>
-  <script defer src="src/utilization-barchart.js"></script>
-  <script defer src="src/wizard.js"></script>
 </head>
-<body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img class="navbar-brand-icon" alt="brand" src="src/img/logo-alt.svg"></a>
+<body class="showcase">
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-brand">
+              <a id="logo" title="PatternFly Showcase" href="#">PATTERNFLY-JQUERY<span class="secondary-logo"> SHOWCASE</span></a>
+            </div>
+          </div>
+          <div class="navbar-collapse navbar-collapse-pf-site collapse">
+            <ul id="menu-primary" class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">Components</a>
+              </li>
+              <li>
+                <a href="#">Contribute</a>
+              </li>
+              <li>
+                <a href="https://github.com/patternfly/patternfly-jquery">Github</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="https://github.com/patternfly/patternfly">Github</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Components<span class="sr-only">(current)</span></a></li>
-          </ul>
-        </div>
-        <!-- //navbar-collapse -->
-      </div>
-      <!-- //container-fluid -->
-    </nav>
+      </nav>
+      <nav class="navbar navbar-sidebar navbar-primary">
+        <ul>
+          <li class="primary-menu">
+            <a href="">Menu</a>
+            <ul>
+              <li>
+                <a href="#">Components</a>
+              </li>
+              <li>
+                <a href="#">Contribute</a>
+              </li>
+              <li>
+                <a href="https://github.com/patternfly/patternfly-jquery">Github</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <div class="doc-wrapper">
       <div class="container">
-        <div id="doc-header" class="doc-header text-center">
-          <h1 class="doc-title">JQuery Components</h1>
-        </div>
         <!-- //doc-header -->
         <div class="doc-body">
           <div class="doc-content">
             <div class="content-inner">
               <!-- Overview -->
-              <section id ="overview" class="doc-section">
-                <h2 class="section-title">Overview</h2>
-                <div class="section-block">
-                  <p>Patternfly JQuery components require <code>patternfly.css</code> and <code>patternfly-additions.css</code>.
-                  </p>
-                  <pre class="prettyprint"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;../dist/css/patternfly.min.css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;../dist/css/patternfly-additions.min.css&quot;&gt;</code></pre>
-                  <p>Components can be installed individually (using individual <code>*.js</code> files) or all at once
-                    (using <code>patternfly.js</code>).</p>
-                  <pre class="prettyprint"><code>&lt;script src=&quot;../dist/js/patternfly.js&quot;&gt;&lt;/script&gt;</code></pre>
-                </div>
-                <!-- //section-block -->
-              </section>
+              <!--<section id ="overview" class="doc-section">-->
+                <!--<h2 class="section-title">Overview</h2>-->
+                <!--<div class="section-block">-->
+                  <!--<p>Patternfly JQuery components require <code>patternfly.css</code> and <code>patternfly-additions.css</code>.-->
+                  <!--</p>-->
+                  <!--<pre class="prettyprint"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;../dist/css/patternfly.min.css&quot;&gt;-->
+<!--&lt;link rel=&quot;stylesheet&quot; href=&quot;../dist/css/patternfly-additions.min.css&quot;&gt;</code></pre>-->
+                  <!--<p>Components can be installed individually (using individual <code>*.js</code> files) or all at once-->
+                    <!--(using <code>patternfly.js</code>).</p>-->
+                  <!--<pre class="prettyprint"><code>&lt;script src=&quot;../dist/js/patternfly.js&quot;&gt;&lt;/script&gt;</code></pre>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; //section-block &ndash;&gt;-->
+              <!--</section>-->
               <!-- //doc-section -->
 
               <!-- Accordion -->
@@ -122,6 +111,7 @@
                   {{{code 'tests/pages/jquery/src/accordion.js'}}}
                   </div>
                 </div>
+                <!--<script defer src="src/accordion.js"></script>-->
                 <!-- //section-block -->
               </section>
               <!-- //doc-section -->
@@ -140,6 +130,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/aggregate-card.js'}}}
                   </div>
+                  <script defer src="src/aggregate-card.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -162,6 +153,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/application-launcher.js'}}}
                   </div>
+                  <script defer src="src/application-launcher.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -184,6 +176,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/bootstrap-combobox.js'}}}
                   </div>
+                  <script defer src="src/bootstrap-combobox.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -206,6 +199,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/bootstrap-datepicker.js'}}}
                   </div>
+                  <script defer src="src/bootstrap-datepicker.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -228,6 +222,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/bootstrap-select.js'}}}
                   </div>
+                  <script defer src="src/bootstrap-select.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -250,6 +245,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/bootstrap-switch.js'}}}
                   </div>
+                  <script defer src="src/bootstrap-switch.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -272,6 +268,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/bootstrap-touchspin.js'}}}
                   </div>
+                  <script defer src="src/bootstrap-touchspin.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -294,6 +291,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/bootstrap-treeview.js'}}}
                   </div>
+                  <script defer src="src/bootstrap-treeview.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -321,6 +319,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/cardview.js'}}}
                   </div>
+                  <script defer src="src/cardview.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -341,6 +340,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/count-remaining-char.js'}}}
                   </div>
+                  <script defer src="src/count-remaining-char.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -363,6 +363,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/horizontal-nav.js'}}}
                   </div>
+                  <script defer src="src/horizontal-nav.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -376,6 +377,7 @@
                   <div class="doc-example">
                     {{{include 'tests/pages/jquery/src/list.html'}}}
                   </div>
+                  <script defer src="src/list.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -395,6 +397,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/listview.js'}}}
                   </div>
+                  <script defer src="src/listview.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -414,6 +417,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/listview-rows.js'}}}
                   </div>
+                  <script defer src="src/listview-rows.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -450,6 +454,8 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/vertical-drawer.js'}}}
                   </div>
+                  <script defer src="src/horizontal-drawer.js"></script>
+                  <script defer src="src/vertical-drawer.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -470,6 +476,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/popover.js'}}}
                   </div>
+                  <script defer src="src/popover.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -489,6 +496,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/progressbars.js'}}}
                   </div>
+                  <script defer src="src/progressbars.js"></script>
                 </div>
               </section>
               <!-- //doc-section -->
@@ -501,6 +509,13 @@
                   <div class="doc-example">
                     {{{include 'tests/pages/jquery/src/search.html'}}}
                   </div>
+                  <div class="doc-example-html">
+                    {{{template 'tests/pages/jquery/src/search.html'}}}
+                  </div>
+                  <div class="doc-example-js">
+                    {{{code 'tests/pages/jquery/src/search.js'}}}
+                  </div>
+                  <script defer src="src/search.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -528,6 +543,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/tableview.js'}}}
                   </div>
+                  <script defer src="src/tableview.js"></script>
                 </div>
                  <!-- //section-block -->
               </section>
@@ -547,6 +563,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/timepicker.js'}}}
                   </div>
+                  <script defer src="src/timepicker.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -574,6 +591,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/toolbar.js'}}}
                   </div>
+                  <script defer src="src/toolbar.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -593,6 +611,7 @@
                   <div class="doc-example-js"></div>
                   {{{code 'tests/pages/jquery/src/tooltip.js'}}}
                 </div>
+                <script defer src="src/tooltip.js"></script>
                 <!-- //section-block -->
               </section>
               <!-- //doc-section -->
@@ -611,6 +630,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/treegridtable.js'}}}
                   </div>
+                  <script defer src="src/treegridtable.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -630,6 +650,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/utilization-barchart.js'}}}
                   </div>
+                  <script defer src="src/utilization-barchart.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -653,6 +674,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/vertical-nav.js'}}}
                   </div>
+                  <script defer src="src/vertical-nav.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -672,6 +694,7 @@
                   <div class="doc-example-js">
                     {{{code 'tests/pages/jquery/src/wizard.js'}}}
                   </div>
+                  <script defer src="src/wizard.js"></script>
                 </div>
                 <!-- //section-block -->
               </section>
@@ -725,5 +748,10 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+      $('.navbar-toggle').click(function(){
+        $('.navbar-sidebar').toggleClass("open");
+      })
+    </script>
 </body>
 </html>
