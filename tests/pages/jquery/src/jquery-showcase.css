@@ -377,6 +377,9 @@ code .tag {
   -webkit-box-shadow: 0 0 3px rgba(255, 255, 255, 0.7);
   box-shadow: 0 0 3px rgba(255, 255, 255, 0.7);
 }
+.showcase header .navbar-right .dropdown a i.fa{
+  line-height: inherit;
+}
 .showcase header .dropdown-menu > li > a {
   border-color: #ddd;
   border-style: solid;
@@ -684,4 +687,3 @@ code .tag {
     content: '\f18e';
   }
 }
-
